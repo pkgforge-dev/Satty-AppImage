@@ -1,0 +1,8 @@
+#!/bin/false
+
+if [ -z "$1" ]; then
+	f=$(zenity --text 'Select file to open' --file-selection \
+	  --file-filter='Images (jpg, png, svg, gif) | *.jpg *.JPG *.png *.PNG *svg *SVG *.gif *.GIF'
+	)
+	set -- --filename "$f"
+fi

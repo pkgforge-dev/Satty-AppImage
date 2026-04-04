@@ -12,7 +12,7 @@ export ICON=/usr/share/icons/hicolor/scalable/apps/satty.svg
 export DESKTOP=/usr/share/applications/satty.desktop
 
 # Deploy dependencies
-quick-sharun /usr/bin/satty
+quick-sharun /usr/bin/satty /usr/bin/zenity
 
 # Additional changes can be done in between here
 
