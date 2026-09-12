@@ -11,6 +11,7 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/scalable/apps/satty.svg
 export DESKTOP=/usr/share/applications/satty.desktop
 export USE_HOST_DRIVERS_EXPERIMENTAL=1
+export URUNTIME_PRELOAD=1
 
 # Deploy dependencies
 quick-sharun /usr/bin/satty /usr/bin/zenity
